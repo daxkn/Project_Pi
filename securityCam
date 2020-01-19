@@ -14,8 +14,9 @@ camera.rotation = 180
 def getFileName():
     return datetime.datetime.now().strftime("%Y-%-m-%d_%H.%M.%S.jpg")
 
+i=0
 
-while True:
+while True and i<5:
     filename = getFileName()
     pir.wait_for_motion
     
@@ -43,6 +44,6 @@ while True:
     s.login(smtpUser, smtpPass)
     s.sendmail(fromAdd, toAdd, header + '\n\n' +body)
     s.quit()
-    
+    i=i+1
     
     time.sleep(10)
