@@ -17,6 +17,8 @@ Töltsük le az [alábbi linkről](https://www.raspberrypi.org/downloads/) , maj
 
 - Az építésnél mindenképp figyeljünk arra, hogy az áramot utoljára csatlakoztassuk az eszközre, hogy mindenképpen elkerüljük az áramütést.
 Figyeljünk arra, hogy a telepítéshez kizárólag vezetékes egér és billentyűzet használható, viszont a telepítés után bátran csatlakoztathatunk vezeték nélküli megoldást is.
+A mozgásérzékelőnk három csatlakozóját ( 5V, OUT, Ground ) ebben a sorrendben csatlakoztassuk a Pi 2, 26 (GPIO 7) és 6-os pinjére.
+Amennyiben ez gondot okozna, erről találsz képet a dokumentációban.
 
 Amikor készen van, így kell kinéznie:
 
