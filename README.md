@@ -1,5 +1,5 @@
 # Project_Pi
-**GKNB_INTM020 Mikroelektromechanikai rendszerek**
+*GKNB_INTM020 Mikroelektromechanikai rendszerek*
 
 ## Szükséges Eszközök:
 - Raspberry PI model 4 B
@@ -27,14 +27,17 @@ Amikor készen van, így kell kinéznie:
 
 
 ## Első lépések
+- Állítsuk be helyünket, és ha ezzel automatikusan nem történne meg, állítsuk be az időzónánkat is.
+- Csatlakozzunk az internetre. Ezt WiFi-vel és Ethernet kábellel is megoldhatjuk.
 
 ### Frissítsük a Pi-t, az alábbi kódokkal:
 - sudo apt-get update
 - sudo apt-get upgrade
+### Telepítsük a szükséges alkalmazásokat:
 - sudo pip install gpiozero
-- sudo pip install matplotlib
-- sudo pip install
 - sudo apt-get install ssmtp mailutils --email
+
+**Ezután már futtathatjuk a kódot.**
 
 ## Dokumentáció:
   Ha érdekel a biztonsági rendszer elkészítésének a története, azt (ezen a linken)[] találod.
