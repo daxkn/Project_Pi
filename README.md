@@ -40,4 +40,4 @@ Amikor készen van, így kell kinéznie:
 **Ezután már futtathatjuk a kódot.**
 
 ## Dokumentáció:
-  Ha érdekel a biztonsági rendszer elkészítésének a története, azt (ezen a linken)[https://github.com/daxkn/Project_Pi/wiki/Fejleszt%C3%A9si-napl%C3%B3:] találod.
+  Ha érdekel a biztonsági rendszer elkészítésének a története, azt (ezen a linken)[https://github.com/daxkn/Project_Pi/wiki/Fejleszt%C3%A9si-napl%C3%B3] találod.
