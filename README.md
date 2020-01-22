@@ -12,8 +12,16 @@
 
 ## Rakjuk össze az eszközt:
 
-Az építésnél mindenképp figyeljünk arra, hogy az áramot utoljára csatlakoztassuk az eszközre, hogy mindenképpen elkerüljük az áramütést.
+- Telepítsük az SD kártyánkra a NOOBS rendszert:
+Töltsük le az [alábbi linkről](https://www.raspberrypi.org/downloads/) , majd másoljuk fel a teljes tartalmat az SD kártyánkra.
+
+- Az építésnél mindenképp figyeljünk arra, hogy az áramot utoljára csatlakoztassuk az eszközre, hogy mindenképpen elkerüljük az áramütést.
 Figyeljünk arra, hogy a telepítéshez kizárólag vezetékes egér és billentyűzet használható, viszont a telepítés után bátran csatlakoztathatunk vezeték nélküli megoldást is.
+
+Amikor készen van, így kell kinéznie:
+
+![Front](http://puu.sh/F2z8S/d8cc91eef1.jpg)
+![Side](http://puu.sh/F2z7z/c97552abbc.jpg)
 
 
 ## Első lépések
@@ -25,3 +33,6 @@ Figyeljünk arra, hogy a telepítéshez kizárólag vezetékes egér és billent
 - sudo pip install matplotlib
 - sudo pip install
 - sudo apt-get install ssmtp mailutils --email
+
+## Dokumentáció:
+  Ha érdekel a biztonsági rendszer elkészítésének a története, azt (ezen a linken)[] találod.
